@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Athul | Software Solutions</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f4f6f9;
+        color: #333;
+    }
+
+    header {
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    nav {
+        background: #0a3d62;
+        padding: 12px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 20px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    nav a:hover {
+        color: #f1c40f;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 60px 20px;
+        background: white;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .products {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .products h2 {
+        margin-bottom: 30px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+    }
+
+    .card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .card h3 {
+        margin: 15px 0 5px;
+    }
+
+    .card p {
+        padding: 0 15px 15px;
+        font-size: 0.95em;
+    }
+
+    footer {
+        background: #0a3d62;
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+        margin-top: 40px;
+    }
+
+    footer p {
+        margin: 8px 0;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Athul</h1>
+    <p>Professional Software Solutions</p>
+</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Premium Software for Professionals</h2>
+    <p>We provide trusted tools like Bluebeam, Planswift, Microsoft Office, Windows, and Adobe.</p>
+</section>
+
+<section class="products" id="products">
+    <h2>Our Products</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x200?text=Bluebeam" alt="Bluebeam">
+            <h3>Bluebeam</h3>
+            <p>Powerful PDF solutions designed for construction professionals.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x200?text=Planswift" alt="Planswift">
+            <h3>Planswift</h3>
+            <p>Accurate takeoff and estimating software for builders.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x200?text=Microsoft+Office" alt="Office">
+            <h3>Microsoft Office</h3>
+            <p>Industry-leading productivity tools for business and personal use.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x200?text=Windows" alt="Windows">
+            <h3>Windows</h3>
+            <p>Reliable and secure operating systems for all devices.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x200?text=Adobe" alt="Adobe">
+            <h3>Adobe</h3>
+            <p>Creative and document solutions for professionals and designers.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 25 Leith Hill Rd, North York, ON M2J 1Z1</p>
+    <p>📞 416-508-4853</p>
+    <p>© 2026 Athul. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
